@@ -27,7 +27,7 @@ class ReactRouter extends React.Component {
                     <Route path="/login" component={Login} onEnter={this.clearSession.bind(this)} />
                     <Route path="/" component={Home} onEnter={this.goLogin.bind(this)}>
                         {/* 使用IndexRoute设定默认首页, 因为路由加载完成,还没有渲染界面, 所以{this.props.children}是空 undefind */}
-                        <IndexRoute component={Init}/>
+                        <IndexRoute component={Init} />
                         <Route path="/about" component={About} />
                         <Route path="/about/:id" component={About}/>
                         <Route path="/contact" component={Contact}/>
