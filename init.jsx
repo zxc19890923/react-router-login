@@ -1,9 +1,11 @@
 import React, {Component} from "react";
+import Search from "./search";
+
 class Init extends Component {
     render() {
         return (
-            <div>
-                inits
+            <div className="search">
+                <Search/>
             </div>
         )
     }

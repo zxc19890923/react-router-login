@@ -1,0 +1,24 @@
+ul {
+    list-style-type: none;
+}
+li {
+    height: 30px;
+    line-height: 30px;
+    padding: 0 10px;
+    font-size: 14px;
+}
+.nav {
+    height: 40px;
+    background: #333;
+}
+.navbar {
+    height: 40px;
+    color: #fff;
+    line-height: 40px;
+}
+.navbar a {
+    color: #fff;
+}
+.r_p {
+    margin-bottom: 10px;
+}
